@@ -10,7 +10,7 @@
     <div class="container">
         <div class="cont-top">
             <header>
-                <div class="foto" id="eu">
+                <div class="foto" id="eu" onclick="picture()">
                   
                 </div>
                 <label for="eu">
@@ -68,5 +68,13 @@
         </div>
     </footer>
     </div>
+    <script>
+        let foto = "<img src = 'asset/image/eu.jpeg'/>"
+
+        function picture(){
+            popup = window.open('', 'pagina', "width=250 height=250")
+            popup.document.write (foto)
+        }
+    </script>
 </body>
 </html>
