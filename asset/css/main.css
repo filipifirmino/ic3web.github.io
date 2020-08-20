@@ -1,0 +1,67 @@
+/*Importações*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    background-color:#A8BBBF;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    background-image: url('../image/eu.jpeg');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: 0px 0px;
+    
+
+}
+section{
+    background-color: #3C6973;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.cont-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.texto-alternativo{
+    font-family: 'Shadows Into Light', cursive;
+}
+.about{
+    color:#fff;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+ul li:hover{
+    color:#093A40;
+    cursor: pointer;
+}
+
+footer ul li a{
+    text-decoration:none;
+    color:#000;
+}
+.indice{
+    display: flex;
+    margin-left: 20px;
+}
+.pt1, .pt2{
+    flex:1
+    
+}
+.pt2{
+    border-left:1px solid #ccc;
+    padding-left: 20px;
+}
