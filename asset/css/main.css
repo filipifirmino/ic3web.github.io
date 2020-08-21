@@ -47,6 +47,10 @@ section{
     margin-right: 20px;
    
 }
+.icon{
+    width: 15px;
+    height: 15px;
+}
 ul li:hover{
     color:#093A40;
     cursor: pointer;
