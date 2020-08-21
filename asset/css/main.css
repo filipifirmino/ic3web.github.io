@@ -36,7 +36,10 @@ section{
     text-align:center;
 }
 .texto-alternativo{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:10pt;
+    color:#fff
+
 }
 .about{
     color:#fff;
