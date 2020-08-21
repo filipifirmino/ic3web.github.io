@@ -64,11 +64,15 @@ footer ul li a{
     display: flex;
     margin-left: 20px;
 }
-.pt1, .pt2{
+.pt1, .pt2 , .socialMedia{
     flex:1
     
 }
 .pt2{
+    border-left:1px solid #ccc;
+    padding-left: 20px;
+}
+.socialMedia{
     border-left:1px solid #ccc;
     padding-left: 20px;
 }
