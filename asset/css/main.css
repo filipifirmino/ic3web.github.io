@@ -154,3 +154,21 @@ footer ul li a{
     color: #3C6973;
     
 }
+/*Media screen*/
+
+@media only screen and (max-width:400px){
+    .contProject{
+        flex-direction: column;
+        height: 600px;
+    }
+    .jobs{
+        margin-bottom: 10px;
+    }
+    .indice{
+        flex-direction: column;
+    }
+    .pt1, .pt2, .socialMedia{
+        border-top:1px solid #c9c9c9;
+        border-left:none
+    }
+}
