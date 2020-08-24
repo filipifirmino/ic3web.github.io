@@ -51,10 +51,26 @@ section{
     width: 15px;
     height: 15px;
 }
+
+/*Hall de skills*/
+.navSikill li{
+    display: inline-block;
+    padding:10px;
+    width: 80px;
+    transition: width 1s, height 2s;
+}
+.navSikill :hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
 ul li:hover{
     color:#093A40;
     cursor: pointer;
+    width: 110px;
+    height: 30px;
 }
+
+/*Menu do footer*/
 
 footer ul li a{
     text-decoration:none;
@@ -75,4 +91,44 @@ footer ul li a{
 .socialMedia{
     border-left:1px solid #ccc;
     padding-left: 20px;
+}
+
+/*Projetos*/
+.contProject{
+    display: flex;
+}
+.jobs{
+    flex:1;
+    height: 200px;
+    text-align: center;
+    margin-right: 10px;
+    transition: width 1s, height 2s;
+    border:1px solid red;
+}
+
+#jobs1{
+ background-image: url(../image/jobs3.jpg);
+ background-size: cover;
+}
+#jobs2{
+    background-image: url(../image/jobs2.jpg);
+    background-size: cover;
+}
+#jobs3{
+    background-image: url(../image/jobs1.png);
+    background-size: cover;
+}
+#jobs4{
+    background-image: url(../image/jobs4.jpg);
+    background-size: cover;
+}
+
+.jobs:hover{
+    /*width: 250px;*/
+    height: 230px;
+    cursor: pointer;
+}
+.title{
+    background-color:rgba(0,0,0,0.5);
+    padding:10px;
 }
