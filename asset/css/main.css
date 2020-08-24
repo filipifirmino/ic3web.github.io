@@ -62,11 +62,17 @@ section{
 .navSikill :hover{
     background-color: rgba(255,255,255,0.5);
 }
-
-ul li:hover{
+.navSikill li:hover{
     color:#093A40;
     cursor: pointer;
-    width: 110px;
+    width: 90px;
+    height: 30px;
+}
+
+ul li a:hover{
+    color:#093A40;
+    cursor: pointer;
+    width: 90px;
     height: 30px;
 }
 
@@ -107,11 +113,11 @@ footer ul li a{
 }
 
 #jobs1{
- background-image: url(../image/jobs3.jpg);
+ background-image: url(../image/jobs2.jpg);
  background-size: cover;
 }
 #jobs2{
-    background-image: url(../image/jobs2.jpg);
+    background-image: url(../image/jobs3.jpg);
     background-size: cover;
 }
 #jobs3{
@@ -131,4 +137,20 @@ footer ul li a{
 .title{
     background-color:rgba(0,0,0,0.5);
     padding:10px;
+}
+.aboutMe li{
+    width: 100px;
+}
+.aboutMe li a:hover{
+    color: #3C6973;
+
+}
+/*Ajuste a ser revisado*/
+.sobre{
+    width: 100px;
+}
+.sobre:hover{
+    width: 150px;
+    color: #3C6973;
+    
 }
