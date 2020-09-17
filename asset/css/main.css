@@ -156,19 +156,19 @@ footer ul li a{
 }
 /*Media screen*/
 
-@media only screen and (min-width:360px ){
-    .contProject{
-        flex-direction: column;
-        height: 600px;
-    }
-    .jobs{
-        margin-bottom: 10px;
-    }
-    .indice{
-        flex-direction: column;
-    }
-    .pt1, .pt2, .socialMedia{
-        border-top:1px solid #c9c9c9;
-        border-left:none
-    }
+@media only screen and (max-width:411px ){
+  .contProject{
+   flex-direction: column;
+   height: 600px;
+  }
+  .jobs{
+   margin-bottom: 10px;
+  }
+  .indice{
+   flex-direction: column;
+  }
+  .pt1, .pt2, .socialMedia{
+   border-left:none;
+   border-top:1px solid #c9c9c9;
+  }
 }
